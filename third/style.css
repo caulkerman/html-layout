@@ -1,37 +1,57 @@
+html, body {
+	margin: 0;
+}
 .container {
-	width: 900px;
+	width: 700px;
+	margin: 0 auto;
 }
 
 .one {
-height: 40px;
-background-color: red;
+height: 100px;
+background-color: #E0E0E0;
+position: relative;
 }
 
 .two {
-height: 40px;
-background-color: yellow;
+height: 170px;
+background-color: #fff;
+position: relative;
+}
+
+.text {
+	text-align: auto;
+	width: 600px;
+	height: 110px;
+    position: absolute;
+    top: 15px;
+    left: 50px;
 }
 
 .three {
-height: 40px;
-background-color: green;
+height: 100px;
+background-color: #3399FF;
 }
 
 .four {
-height: 40px;
-background-color: purple;
+height: 100px;
+background-color: #00CC99;
 }
 
 .five {
-height: 40px;
-background-color: blue;
+height: 100px;
+background-color: #FFFF00;
 }
 
 .six {
-height: 40px;
+height: 100px;
 background-color: orange;
 }
 
 .inset {
-
+	height: 70px;
+	width: 70px;
+	background-color: #3399FF; 
+position: absolute;
+top: 15px;
+left: 15px;
 }
